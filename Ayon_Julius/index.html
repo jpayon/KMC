@@ -29,7 +29,8 @@
             margin-left: 8px;
             cursor: pointer;
         }
-        /* .dropdown.text {
+        
+        .dropdown.text {
             padding: 10px;
             font-size: 18px;
             margin-left: 8px;
@@ -39,7 +40,7 @@
             border-color: #ACA7A6;
         }
         
-        .dropdown text {
+        .dropdown {
             position: relative;
             display: inline-block;
         }
@@ -64,30 +65,14 @@
             padding: 12px 16px;
             text-decoration: none;
             display: block;
-        } */
-        /* .dropdown-content a:hover {
+        }
+        
+        .dropdown-content a:hover {
             background-color: #f1f1f1
         }
         
         .dropdown:hover .dropdown-content {
             display: block;
-        }
-         */
-        
-        .dropdown {
-            width: 200px;
-            padding: 8px;
-            font-size: 16px;
-        }
-        
-        .dropdown option:first-child {
-            display: none;
-        }
-        
-        .dropdown:focus {
-            outline: none;
-            border-color: #4a8af4;
-            box-shadow: 0 0 0 2px rgba(74, 138, 244, 0.5);
         }
         
         button.filter-button {
@@ -97,10 +82,10 @@
             border-color: #214D61;
             border-width: 3px;
         }
-        /* .dropdown:hover .dropbtn {
+        
+        .dropdown:hover .dropbtn {
             background-color: #3e8e41;
         }
-         */
         
         .down {
             transform: rotate(45deg);
@@ -160,10 +145,10 @@
             color: #000000;
             display: block;
         }
-        /* .sidebar a:hover {
+        
+        .sidebar a:hover {
             color: #818181;
         }
-         */
         
         .main {
             margin-left: 320px;
@@ -222,7 +207,7 @@
             <input type="text" placeholder="Enter Location" name="search">
             <button type="submit" class="search-button">SEARCH</button>
         </form>
-        <!-- <div class="dropdown">
+        <div class="dropdown">
             <p class="dropdown text">United States of America &nbsp;&nbsp;<img src="images/chevron_down.png" alt="Paris" style="width:20px"></p>
             <button type="submit" class="filter-button"><i class="fa fa-filter" style="font-size:20px"></i></button>
             <div class="dropdown-content">
@@ -238,21 +223,7 @@
                 <a href="#">Address 10</a>
             </div>
             <p class="location text">There are 10 locations near you</p>
-        </div> -->
-        <select class="dropdown">
-            <option value="" disabled selected>Select an item</option>
-            <option value="item1">Item 1</option>
-            <option value="item2">Item 2</option>
-            <option value="item3">Item 3</option>
-            <option value="item4">Item 4</option>
-            <option value="item5">Item 5</option>
-            <option value="item6">Item 6</option>
-            <option value="item7">Item 7</option>
-            <option value="item8">Item 8</option>
-            <option value="item9">Item 9</option>
-            <option value="item10">Item 10</option>
-          </select>
-
+        </div>
         <div class="container-column">
             <div class="column col-1">
                 <img src="images/map_pin_regular.png" alt="First Image">
