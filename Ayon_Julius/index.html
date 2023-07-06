@@ -456,18 +456,13 @@
             width="1150" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" margin-left="20px"></iframe>
     </div>
     <script>
-        // Get the filter button
         const filterButton = document.getElementById('filter-button');
 
-        // Add event listener to the button
         filterButton.addEventListener('click', () => {
-            // Get the first content section
             const content1 = document.getElementById('content1');
 
-            // Get the second content section
             const content2 = document.getElementById('content2');
 
-            // Toggle the display of the content sections
             if (content1.style.display === 'none') {
                 content1.style.display = 'block';
                 content2.style.display = 'none';
