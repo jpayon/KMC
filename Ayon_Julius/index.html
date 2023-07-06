@@ -116,6 +116,23 @@
             padding-top: 16px;
         }
         
+        .container-column {
+            display: flex;
+        }
+        
+        .container-column.column {
+            flex-basis: 33.33%;
+        }
+        
+        .container-column.img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .container-column.p {
+            margin: 0;
+        }
+        
         .sidebar a {
             padding: 6px 8px 6px 16px;
             text-decoration: none;
@@ -202,20 +219,16 @@
             </div>
             <p class="location text">There are 10 locations near you</p>
         </div>
-        <div class="sidebar-content1">
-            <img src="images/map_pin_regular.png" alt="map" style="width:20px"></p<p>test</p>
-        </div>
-        <div class="sidebar-content1">
-            <img src="images/map_pin_regular.png" alt="map" style="width:20px"></p<p>test</p>
-        </div>
-        <div class="sidebar-content1">
-            <img src="images/map_pin_regular.png" alt="map" style="width:20px"></p<p>test</p>
-        </div>
-        <div class="sidebar-content1">
-            <img src="images/map_pin_regular.png" alt="map" style="width:20px"></p<p>test</p>
-        </div>
-        <div class="sidebar-content1">
-            <img src="images/map_pin_regular.png" alt="map" style="width:20px"></p<p>test</p>
+        <div class="container-column">
+            <div class="column">
+                <img src="first-image.jpg" alt="First Image">
+            </div>
+            <div class="column">
+                <img src="second-image.jpg" alt="Second Image">
+            </div>
+            <div class="column">
+                <p>This is the text for the third column.</p>
+            </div>
         </div>
     </div>
 
