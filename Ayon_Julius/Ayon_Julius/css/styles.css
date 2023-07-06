@@ -1,0 +1,343 @@
+/* Navbar */
+
+nav.navbar.navbar-expand-lg.navbar-dark a {
+    color: #808080;
+}
+
+div#navigation_header a {
+    color: #c6c6c6;
+}
+
+.nav-item {
+    padding: unset;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1rem;
+}
+
+ul.navbar-nav.ml-auto a {
+    font-family: unset;
+    font-size: 15px;
+    color: #bbb;
+}
+
+a.nav-link:hover {
+    background: #808080;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+
+/* End of Navbar */
+
+
+/* Introduction */
+
+p.introduction_p {
+    font-size: 1.2rem;
+}
+
+#introduction {
+    background-color: #f26641;
+    color: #FFF;
+}
+
+h1.title_h1 {
+    font-size: 2.6rem;
+    margin-bottom: 40px;
+}
+
+.company_logo {
+    width: 300px;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+/* End of Introduction */
+
+
+/* About */
+
+iframe#about_video {
+    width: 100%;
+    height: 315px;
+}
+
+#about_p {
+    color: #282829;
+}
+
+.about_h1,
+.events_h1 {
+    color: #F26641;
+}
+
+#about {
+    padding: 7% 15% 3%;
+}
+
+
+/* End of About */
+
+
+/* News */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+#news {
+    padding: 7% 15% 3%;
+    background-color: #eff4c7;
+    color: #FFF;
+}
+
+#news a {
+    text-decoration: none;
+}
+
+#news h1 {
+    color: #afbe4b;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* End of News */
+
+
+/* Events */
+
+#events {
+    padding: 7% 15% 3%;
+}
+
+
+/* End of Events */
+
+
+/* Selinexor */
+
+.introduction_p,
+.selinexor_p {
+    color: #FFF;
+}
+
+#selinexor {
+    color: #FFF;
+}
+
+#selinexor {
+    padding: 7% 15% 3%;
+    background-color: #F26641;
+}
+
+img.honeycomb_img {
+    width: 250px;
+}
+
+
+/* End of Selinexor */
+
+
+/* Footer */
+
+span.fline_footer {
+    margin: 10px;
+    color: #fff;
+}
+
+span.sline_footer {
+    margin: 50px;
+}
+
+span.sline1_footer {
+    margin: 5px;
+}
+
+i.fa-solid.fa-caret-right:before {
+    font-family: "FontAwesome";
+    content: "\f0da";
+}
+
+span.tline_footer {
+    font-size: 20px;
+    right: 10px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+span.tline1_footer {
+    margin: 10px;
+}
+
+#footer {
+    background-color: #4d4d4d;
+}
+
+#footer a {
+    color: #FFF;
+}
+
+.search_button {
+    background-color: #333333;
+}
+
+i.fa-solid.fa-gear:before {
+    font-family: "FontAwesome";
+    content: "\f085";
+}
+
+i.fa-solid.fa-table-cells-large:before {
+    font-family: "FontAwesome";
+    content: "\f009";
+}
+
+
+/* End of Footer */
+
+
+/* Global */
+
+.row {
+    margin-bottom: 60px;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+p {
+    color: #545453;
+}
+
+h1,
+h2 {
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.date_color {
+    color: #545453;
+}
+
+.container-fluid {
+    padding: 5% 15%;
+}
+
+
+/* End of Global */
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.web_dev {
+    width: 450px;
+    border-radius: 5%;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+/*----Media Queries----*/
+
+@media (max-width: 1028px) {
+    ul.navbar-nav.ml-auto a {
+        font-size: 13px !important;
+    }
+    h1.title_h1 {
+        font-size: 2rem;
+    }
+    #about {
+        padding: 7% 10% 3%;
+    }
+    .container-fluid {
+        padding: 5% 10%;
+    }
+    #news {
+        padding: 7% 10% 3%;
+    }
+    #events {
+        padding: 7% 10% 3%;
+    }
+    #selinexor {
+        padding: 7% 10% 3%;
+        background-color: #F26641;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    span.fline_footer {
+        display: block;
+        margin: unset;
+    }
+    span.sline_footer {
+        display: block;
+        text-align: center;
+        margin: unset;
+    }
+    span.firstline_footer {
+        display: block;
+        text-align: center;
+    }
+    span.tline_footer {
+        position: unset;
+        display: block;
+        text-align: center;
+    }
+    button.navbar-toggler {
+        background-color: #808080;
+    }
+    .company_logo {
+        width: 300px;
+        position: unset;
+        bottom: unset;
+        left: unset;
+        margin: auto;
+        display: block;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer_fluid {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 320px) {}
