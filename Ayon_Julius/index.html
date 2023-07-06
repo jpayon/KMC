@@ -149,6 +149,25 @@
             display: block;
         }
         
+        .container {
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .dropdown-column-1 {
+            width: 70%;
+            float: left;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        
+        .dropdown-column-2 {
+            width: 30%;
+            float: left;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        
         .sidebar a:hover {
             color: #818181;
         }
@@ -220,20 +239,24 @@
             <input type="text" placeholder="Enter Location" name="search">
             <button type="submit" class="search-button">SEARCH</button>
         </form>
-        <div class="dropdown">
-            <p class="dropdown text">United States of America &nbsp;&nbsp;<img src="images/chevron_down.png" alt="Paris" style="width:20px"></p>
-            <button type="submit" class="filter-button" id="filter-button"><i class="fa fa-filter" style="font-size:20px"></i></button>
-            <div class="dropdown-content">
-                <a href="#">Address 1</a>
-                <a href="#">Address 2</a>
-                <a href="#">Address 3</a>
-                <a href="#">Address 4</a>
-                <a href="#">Address 5</a>
-                <a href="#">Address 6</a>
-                <a href="#">Address 7</a>
-                <a href="#">Address 8</a>
-                <a href="#">Address 9</a>
-                <a href="#">Address 10</a>
+        <div class="container">
+            <div class="dropdown-column-1">
+                <p class="dropdown text">United States of America &nbsp;&nbsp;<img src="images/chevron_down.png" alt="Paris" style="width:20px"></p>
+                <div class="dropdown-content">
+                    <a href="#">Address 1</a>
+                    <a href="#">Address 2</a>
+                    <a href="#">Address 3</a>
+                    <a href="#">Address 4</a>
+                    <a href="#">Address 5</a>
+                    <a href="#">Address 6</a>
+                    <a href="#">Address 7</a>
+                    <a href="#">Address 8</a>
+                    <a href="#">Address 9</a>
+                    <a href="#">Address 10</a>
+                </div>
+                <div class="dropdown-column-2">
+                    <button type="submit" class="filter-button" id="filter-button"><i class="fa fa-filter" style="font-size:20px"></i></button>
+                </div>
             </div>
         </div>
         <div id="content1" class="content">
