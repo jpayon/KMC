@@ -501,20 +501,13 @@
       ></iframe>
     </div>
     <script>
-  
       const filterButton = document.getElementById("filter-button");
 
-     
-      const content1 = document.getElementById("content1");
-      const content2 = document.getElementById("content2");
-
-      
-      content1.style.display = "block";
-      content2.style.display = "none";
-
-    
       filterButton.addEventListener("click", () => {
-       
+        const content1 = document.getElementById("content1");
+
+        const content2 = document.getElementById("content2");
+
         if (content1.style.display === "none") {
           content1.style.display = "block";
           content2.style.display = "none";
